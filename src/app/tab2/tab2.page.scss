@@ -1,1 +1,48 @@
+ion-avatar,
+ion-avatar > img{
+    height:20rem;
+    width:20rem;
+    border-radius: 50%;
+    margin:auto; 
+    margin-top: 20px;
+    transform-origin: 50% 50%;
+}
+
+.contentEcoute{
+    --ion-background-color: linear-gradient(to top, rgb(135, 135, 202) 0%, rgb(12, 12, 29) 100%);
+}
+
+
+@keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    animation: rotating 5s linear infinite;
+    -webkit-animation: rotating 5s linear infinite;
+}
+
+.bouton{
+    height:70px;
+    font-size:40px;
+    margin: auto;
+    margin-top:50px; 
+    display: block;
+    width:25%;
+}
+
 

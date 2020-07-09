@@ -1,5 +1,7 @@
 {
   "name": "musiqueDownloadMobile",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

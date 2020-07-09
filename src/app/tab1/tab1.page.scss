@@ -2,3 +2,18 @@
   max-height: 35vh;
   overflow: hidden;
 }
+
+.contentRecherche
+{
+  --ion-background-color: linear-gradient(to top, rgb(135, 135, 202) 0%, rgb(12, 12, 29) 100%);
+}
+
+.segment{
+  margin-top: 20px;
+}
+
+.list{
+  margin-top: 80px;
+  --ion-background-color: rgba(255,255,255,0.1);
+}
+

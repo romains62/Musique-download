@@ -1,9 +1,44 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab Two
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content></ion-content>
+<ion-content class="contentEcoute container-fluid">
+      <ion-avatar ><img class="{{class}}" src="{{imageURL}}">
+      </ion-avatar>
+
+
+
+      
+
+      <ion-grid>
+            <ion-row>
+                  <ion-text color="light">
+                        <h1> {{artiste}} - {{titre}} </h1>
+                  </ion-text>
+                                  
+            </ion-row>
+            <ion-row align-items-center>
+              <ion-col size="2" size-lg offset="0">
+                  <ion-button class="bouton" color="bouton">
+                        <ion-icon name="rewind"></ion-icon>
+                        </ion-button>              
+            </ion-col>
+              <ion-col size="2" size-lg offset="2" >
+                  <ion-button class="bouton" color="bouton" (click)="AudioClick(playAudio)">
+                        <ion-icon name="{{playAudio}}"></ion-icon>
+                  </ion-button>
+            </ion-col>
+              <ion-col size="2" size-lg offset="2">
+                  <ion-button class="bouton" color="bouton">
+                        <ion-icon name="fastforward"></ion-icon>
+                  </ion-button>
+           </ion-col>
+
+     
+                          
+            </ion-row>
+      </ion-grid>
+
+
+
+
+
+
+</ion-content>
